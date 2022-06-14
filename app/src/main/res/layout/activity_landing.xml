@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".Landing.LandingActivity">
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="370dp"
+        android:layout_height="370dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vector1"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang !"
+        android:layout_marginLeft="25dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Selamat datang di aplikasi buatan kelompok kami, silahkan login untuk melannjutkan"
+        android:textColor="#fff"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonrounded3"
+            android:text="Masuk"
+            android:id="@+id/btnKeLogin"
+            android:textColor="#2826bd"
+            ></Button>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonrounded2"
+            android:text="Buat akun baru"
+            android:id="@+id/btnKeRegister"
+            android:textColor="#fff"
+            ></Button>
+    </LinearLayout>
+</LinearLayout>

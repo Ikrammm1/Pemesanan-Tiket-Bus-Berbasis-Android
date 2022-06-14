@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailTicket.DetailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="@color/bg"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="-25dp">
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="-130dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Pemesan"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"></TextView>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kategori"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    ></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="-20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/detailNama"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Budi susanti"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"></TextView>
+                <TextView
+                    android:id="@+id/detailKateg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="VIP"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    ></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Bus"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"></TextView>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tujuan"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    ></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="-20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/detailBus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rosalia indah"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"></TextView>
+                <TextView
+                    android:id="@+id/detailRute"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="YGY-SOLO"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    ></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Keberangkatam"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"></TextView>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jam"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    ></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="-20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/detailKeber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2018-11-20"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="40dp"></TextView>
+                <TextView
+                    android:id="@+id/detailJam"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="11:00"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    ></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="35dp"
+                    android:text="Harga : "></TextView>
+                <TextView
+                    android:id="@+id/detailTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/orange"
+                    android:text="400.000"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/detailBelum"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="Belum Bayar"
+                    android:textStyle="bold"
+                    android:textColor="#C80303"
+                    android:visibility="visible"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:id="@+id/detailSudah"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="Sudah Bayar"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="visible"
+                    android:textSize="18sp"></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnLanjut"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/orange"
+            android:visibility="visible"
+            android:text="Bayar"
+            android:textColor="@android:color/white"></Button>
+
+        <Button
+            android:id="@+id/btnBatal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#c91602"
+            android:text="Batalkan Pesanan"
+            android:visibility="visible"
+            android:textColor="@android:color/white"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

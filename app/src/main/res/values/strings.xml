@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PML_Kelompok3</string>
+    <string-array name="rute">
+        <item>SMRG-JOG</item>
+        <item>JOG-JKT</item>
+        <item>LMPNG-JKT</item>
+        <item>JOG-BNDG</item>
+    </string-array>
+</resources>
